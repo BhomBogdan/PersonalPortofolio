@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <Layout>
       <motion.div exit={{ opacity: 0 }}>
+        
         <AnimatePresence>
-          <LandingWelcome />
+        <h1>hello</h1>    
+    <LandingWelcome />
           <LastPRojects />
         </AnimatePresence>
       </motion.div>
